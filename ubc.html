@@ -1,0 +1,35 @@
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="favicon-32x32.png">
+    <meta name="viewport" content="width=device-width" />
+    <title>UBC Code Update</title>
+    <link type="text/css" rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script
+    type="module"
+    src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"
+    ></script>
+</head>
+<body>
+
+    <div id="main">
+        <h1>University of British Columbia Install</h1>
+        <div class="main-container-text-wrapper">
+            <h4>Instructions to install</h4>
+            <p>To Install Please first plug in a sensor.</p>
+            <p>Then click the button below.</p
+            <p>A popup should show up in the to left select the sensor.</p>
+            <p>When given the option <b>DO NOT</b> select erase flash</p>
+            <p>Upload should take about 45 seconds</p>
+        </div>
+        <esp-web-install-button
+        manifest="ubc_manifest.json"
+        ></esp-web-install-button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "Sashimi V0.1.2",
+  "version": "2021.11.0",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32-C3",
+      "parts": [
+        {
+          "path": "builds/ubc_v2.2_sashimi-sensor.bin",
+          "offset": 65536
+        }
+      ]
+    },
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "builds/ubc_v2.2_sashimi-sensor.bin",
+          "offset": 65536
+        }
+      ]
+    }
+  ]
+}
