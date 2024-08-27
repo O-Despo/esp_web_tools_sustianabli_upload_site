@@ -7,16 +7,13 @@
       "chipFamily": "ESP32-C3",
       "parts": [
         {
-          "path": "builds/ubc_v2.2_sashimi-sensor.bin",
-          "offset": 65536
-        }
-      ]
+          "path": "builds/ubc_v0.3.bin"
     },
     {
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "builds/ubc_v2.2_sashimi-sensor.bin",
+          "path": "builds/ubc_v0.3.bin",
           "offset": 65536
         }
       ]
